@@ -2,9 +2,9 @@
 	//Tên kỳ thi
 	$contestName = "Bài tập tin học"; 
 	//Mô tả kỳ thi
-	$description = "Chuyên Hạ Long";
+	$description = "THPT CHUYÊN LÊ QUÝ ĐÔN - BÌNH ĐỊNH";
 	//footer
-	$footer = '<i>Copyright © <a href = "http://fb.com/hungs20"><font color = "red"><b>Hungs20</b></font></a><br/>IT <font color = "blue"><b>15 - 18</b></font> Chuyên Hạ Long</i>'; /// vui lòng tôn trọng quyền tác giả!
+	$footer = '<i>Copyright © <a href = "https://www.facebook.com/lethuonglqdbinhdinh"><font color = "red"><b>Hungs20</b></font></a><br/>IT <font color = "blue"><b>15 - 18</b></font> Chuyên Hạ Long</i>'; /// vui lòng tôn trọng quyền tác giả!
 	//Thư mục chưa đề (định dạng pdf, jpg hoặc zip)
 	$problemsDir = "contests/problems";
 	//Tên file đề tổng hợp
