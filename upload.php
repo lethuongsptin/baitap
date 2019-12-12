@@ -115,7 +115,7 @@
 			{$message = "LỖI: File có dung lượng quá lớn.";}
 		else if ($_FILES["file"]["error"] > 0) 
 			{$message = "LỖI: Không rõ.";}
-		else if ($extension != 'cpp' && $extension != 'pas' && $extension != 'java' && $extension != 'c' && $extension != 'doc' && $extension != 'docx' && $extension != 'mdb' && $extension != 'accdb') 
+		else if ($extension != 'cpp' || $extension != 'pas' || $extension != 'java' || $extension != 'c' || $extension != 'doc' || $extension != 'docx' || $extension != 'mdb' || $extension != 'accdb') 
 			{
 				$message = "LỖI: File không hợp lệ.";
 			}
